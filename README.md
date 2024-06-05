@@ -9,9 +9,9 @@ Controller: Defines the RESTful endpoints for handling book-related requests. It
 
 Service: Contains the business logic for book-related operations. It interacts with the DAO to access the database.
 
-DAO: Provides access to the database using Spring Data JPA. It extends the JpaRepository interface to enable CRUD operations.
+Repository: Provides access to the database using Spring Data JPA. It extends the JpaRepository interface to enable CRUD operations.
 
-Entities: Represents the entity (model) for a book. It is annotated with @Entity to indicate it's a JPA entity and corresponds to a database table.
+Entities/Model: Represents the entity (model) for a book. It is annotated with @Entity to indicate it's a JPA entity and corresponds to a database table.
 
 How to Run the Project 💨
 Ensure you have Java installed on your system.
